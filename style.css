@@ -1,0 +1,246 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left; /* Ensures all text in the body is left-aligned */
+    margin-top: 60px;
+}
+
+
+header {
+    background-color: #007acc;
+    color: white;
+    position: fixed;
+    top: 0; /* Aligns it at the top of the viewport */
+    width: 100%; /* Makes it span the full width */
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-left h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.navbar-right .icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    color: teal;
+    display: inline-block;
+}
+
+.navbar-right .icon:hover{
+    animation: pulse 1s infinite;
+    }
+    
+    @keyframes pulse {
+        0%, 100% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+    }
+    
+
+.navbar-right a:hover {
+    color: #0a3048; /* Add a hover effect */
+    animation: pulse 1s infinite;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 50px;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Courses Section */
+section#courses {
+    padding: 10px;  /* Reduced padding */
+}
+
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Adjusted minimum width of cards */
+    gap: 15px;  /* Reduced gap between cards */
+    margin-top: 10px;
+}
+
+.course-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;  /* Slightly smaller border radius */
+    padding: 10px;  /* Reduced padding inside card */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);  /* Lighter shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 0.9rem;  /* Smaller font size inside cards */
+}
+
+.course-card h3 {
+    font-size: 1rem;  /* Smaller heading */
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.course-card p {
+    color: #555;
+    font-size: 0.85rem;  /* Smaller paragraph text */
+}
+
+.course-card p strong {
+    font-weight: bold;
+}
+
+.course-card:hover {
+    transform: translateY(-3px);  /* Less noticeable hover effect */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* Lighter shadow on hover */
+}
+
+
+/* Divider */
+hr.divider {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Experience Section */
+#experience {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*
+.timeline {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline-item {
+    border-left: 2px solid #3498db;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+.timeline-item .year {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.timeline-item h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.timeline-item p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.timeline-item a {
+    font-size: 0.9em;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.timeline-item a:hover {
+    text-decoration: underline;
+}
+*/
+
+.timeline {
+    position: relative;
+    padding: 20px;
+}
+.timeline-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #3498db;
+    margin-bottom: 20px;
+}
+.timeline-item .year {
+    font-weight: bold;
+    color: #3498db;
+}
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+table th {
+    background: #007acc;
+    color: white;
+    text-align: center;
+}
+
+/* Social Links */
+.social-links img {
+    width: 30px;
+    margin: 0 0.5rem;
+}
+
+footer {
+    text-align: center; /* Ensure footer is left-aligned */
+    padding: 1rem;
+    background: #007acc;
+    color: #fff;
+}
+
+a {
+    color: #3498db; /* Normal link color */
+    text-decoration: none; /* Removes underline */
+  }
+
+  a:hover {
+    /*color: #1abc9c;  Change color when hovering */
+    text-decoration: underline; /* Optional underline on hover */
+  }
