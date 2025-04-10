@@ -53,8 +53,7 @@ To view the website locally on your machine:
    ```bash
    git clone https://github.com/hetuvpatel/portfolio-website.git
 2. Navigate to the project directory:
-   ```bash
-   cd portfolio-website
+   `cd portfolio-website`
    
    Open the index.html file in your web browser.
    That's it! You should now be able to view and interact with the website locally.
