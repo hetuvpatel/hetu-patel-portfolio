@@ -7,7 +7,6 @@ Welcome to the official portfolio website of Hetu Patel! This website serves as 
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [File Structure](#file-structure)
 - [How to Run Locally](#how-to-run-locally)
 - [Contributing](#contributing)
 - [License](#license)
@@ -36,10 +35,27 @@ This portfolio website is designed to introduce me to potential employers, colla
 - **CSS3**: Styling language for designing the layout and visuals of the website.
 - **Icons**: Custom icons for GitHub, LinkedIn, and personal branding.
 
-## File Structure
 
-The repository contains the following files:
+### File Descriptions:
 
-├── index.html # Main HTML file for the website ├── style.css # CSS file for styling the website ├── hetu-patel-resume.pdf # My resume in PDF format ├── icons8-github-64.png # GitHub icon ├── icons8-libra-50.png # Libra icon (used for personal branding) ├── icons8-linkedin-50.png# LinkedIn icon └── README.md # This file
+- `index.html`: This is the main HTML file that includes all the content displayed on the homepage. It is structured with sections that introduce myself, showcase my achievements, and include links to my social media and resume.
+- `style.css`: The styling file that controls the appearance of the website, including fonts, colors, layout, and interactive elements.
+- `hetu-patel-resume.pdf`: A PDF version of my resume, which can be downloaded by visitors.
+- `icons8-github-64.png`: The GitHub icon used to link to my GitHub profile.
+- `icons8-libra-50.png`: An icon associated with my personal branding, representing the Libra symbol (or any other branding use).
+- `icons8-linkedin-50.png`: The LinkedIn icon, which links to my LinkedIn profile.
 
+## How to Run Locally
 
+To view the website locally on your machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hetuvpatel/portfolio-website.git
+2. Navigate to the project directory:
+    cd portfolio-website
+Open the index.html file in your web browser.
+That's it! You should now be able to view and interact with the website locally.
+
+##Contributions
+This repository is currently for personal use. However, if you want to contribute or suggest improvements, feel free to fork this repository, make changes, and create a pull request. Contributions are always welcome!
