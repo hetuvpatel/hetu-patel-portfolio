@@ -40,3 +40,6 @@ This portfolio website is designed to introduce me to potential employers, colla
 
 The repository contains the following files:
 
+├── index.html # Main HTML file for the website ├── style.css # CSS file for styling the website ├── hetu-patel-resume.pdf # My resume in PDF format ├── icons8-github-64.png # GitHub icon ├── icons8-libra-50.png # Libra icon (used for personal branding) ├── icons8-linkedin-50.png# LinkedIn icon └── README.md # This file
+
+
