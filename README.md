@@ -1,62 +1,59 @@
-# Hetu Patel Portfolio Website
+# 🌟 Hetu Patel Portfolio Website
 
-Welcome to the official portfolio website of Hetu Patel! This website serves as a showcase for my projects, skills, achievements, and professional experience. It's built with HTML and CSS to provide a simple, responsive, and visually appealing platform for anyone to learn more about me and my work.
+🔗 **Live Website:** [Visit Here!](https://hetuvpatel.github.io/hetu-patel-portfolio/) 🚀
 
-## Table of Contents
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![Responsive](https://img.shields.io/badge/Responsive-Design-ff69b4?style=for-the-badge)]()
+[![Open for Collaboration](https://img.shields.io/badge/Open%20to-Collaboration-brightgreen?style=for-the-badge)]()
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [How to Run Locally](#how-to-run-locally)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+---
 
-## Project Overview
+## 📖 About the Project
 
-This portfolio website is designed to introduce me to potential employers, collaborators, and anyone interested in learning more about my skills in software development, data science, and technology. It includes information such as:
+Welcome to the **official portfolio website** of **Hetu Patel** — a platform that showcases my projects, skills, leadership roles, and professional experiences.  
+Built with **HTML5** and **CSS3**, it aims to be **simple**, **responsive**, and **visually appealing** for employers, collaborators, and fellow tech enthusiasts.
 
-- A detailed summary of my academic background and professional experiences
-- Links to my GitHub, LinkedIn, and other social profiles
-- A downloadable version of my resume in PDF format
-- Visuals and icons to enhance the user experience
+---
 
-## Features
+## 🧩 Features
 
-- **Responsive Design**: The website is optimized to work on various devices, from desktops to mobile phones.
-- **Social Media Links**: Direct links to my GitHub and LinkedIn profiles for easy access to my professional network.
-- **Resume Download**: Visitors can download my most up-to-date resume in PDF format.
-- **Interactive UI**: Hover effects and smooth transitions provide a polished, interactive user experience.
-- **Clean and Minimalistic Design**: The website is designed to be simple, with a focus on presenting my content clearly.
+✨ **Responsive Design**: Looks great on desktop, tablet, and mobile devices.  
+🔗 **Social Media Integration**: Quick access to GitHub and LinkedIn profiles.  
+📄 **Resume Download**: Get my latest resume in PDF format.  
+🎨 **Interactive UI**: Smooth hover effects, clean transitions, and minimalistic layout.  
+💬 **Contact Section**: Easy for visitors to reach out and connect!
 
-## Technologies Used
+---
 
-- **HTML5**: Markup language for creating the structure of the website.
-- **CSS3**: Styling language for designing the layout and visuals of the website.
-- **Icons**: Custom icons for GitHub, LinkedIn, and personal branding.
+## 🛠️ Tech Stack
 
+| Tech | Purpose |
+|:----|:--------|
+| **HTML5** | Structuring the web content |
+| **CSS3** | Styling, animations, and responsiveness |
+| **Icons8** | Custom icons for social media links |
+| **GitHub** | Version control and deployment |
 
-### File Descriptions:
+---
 
-- `index.html`: This is the main HTML file that includes all the content displayed on the homepage. It is structured with sections that introduce myself, showcase my achievements, and include links to my social media and resume.
-- `style.css`: The styling file that controls the appearance of the website, including fonts, colors, layout, and interactive elements.
-- `hetu-patel-resume.pdf`: A PDF version of my resume, which can be downloaded by visitors.
-- `icons8-github-64.png`: The GitHub icon used to link to my GitHub profile.
-- `icons8-libra-50.png`: An icon associated with my personal branding, representing the Libra symbol (or any other branding use).
-- `icons8-linkedin-50.png`: The LinkedIn icon, which links to my LinkedIn profile.
+## 📂 Project Structure
 
-## How to Run Locally
+| File/Folder | Purpose |
+|:------------|:--------|
+| `index.html` | Main file with sections for About, Experience, Projects, and Contact |
+| `style.css` | Controls design, layout, responsiveness, and animations |
+| `hetu-patel-resume.pdf` | Downloadable resume for visitors |
+| `icons8-github-64.png` | GitHub icon |
+| `icons8-linkedin-50.png` | LinkedIn icon |
+| `icons8-libra-50.png` | Custom branding (Libra symbol) |
 
-To view the website locally on your machine:
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/hetuvpatel/portfolio-website.git
-2. Navigate to the project directory:
-   `cd portfolio-website`
-   
-   Open the index.html file in your web browser.
-   That's it! You should now be able to view and interact with the website locally.
+## 🚀 How to Run Locally
 
-## Contributions
-This repository is currently for personal use. However, if you want to contribute or suggest improvements, feel free to fork this repository, make changes, and create a pull request. Contributions are always welcome!
+Clone and run the project in your local environment:
+
+```bash
+git clone https://github.com/Patel-Hetu/portfolio-website.git
+cd portfolio-website
